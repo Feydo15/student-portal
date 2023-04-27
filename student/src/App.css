@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #eee;
+  font-family: 'helvetica neue', helvetica, arial, sans-serif;
+  color: #222;
+}
+
+#form {
+  max-width: 700px;
+  padding: 2rem;
+}
+
+form{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 0 1rem 0;
+}
+label, input {
+  width: 30%;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  justify-content: space-between;
+  font-size: 1.1rem;
+}
+label {
+  text-align: center;
+  width: 30%;
+}
+input {
+  border: 2px solid #aaa;
+  border-radius: 2px;
+}
+
+.button {
+  background-color: #e2a5a5;
+}
